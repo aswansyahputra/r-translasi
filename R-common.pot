@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2021-06-02 06:11+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/gnuwin32/system.c:564 src/gnuwin32/system.c:1129
+#: src/gnuwin32/system.c:1141 src/main/connections.c:787
+#: src/main/connections.c:792 src/main/dounzip.c:180 src/main/saveload.c:2065
+#: src/main/serialize.c:2941 src/main/serialize.c:2946
+#: src/main/serialize.c:3040 src/main/serialize.c:3087 src/unix/system.c:418
+#, c-format
+msgid "cannot open file '%s': %s"
+msgstr ""
+
+#: src/include/Errormsg.h:27 src/main/subscript.c:404 src/main/subscript.c:423
+#: src/main/subscript.c:448 src/main/subscript.c:488 src/main/subscript.c:702
+#: src/main/subscript.c:742 src/main/subscript.c:898
+msgid "subscript out of bounds"
+msgstr ""
+
+#: src/include/Errormsg.h:28
+#, c-format
+msgid "object of type '%s' is not subsettable"
+msgstr ""
+
+#: src/main/Rdynload.c:1081 src/main/Rdynload.c:1113 src/main/Rdynload.c:1133
+#, c-format
+msgid ""
+"unable to load shared object '%s':\n"
+"  %s"
+msgstr ""
+
+#: src/main/arithmetic.c:330
+msgid "NAs produced by integer overflow"
+msgstr ""
+
+#: src/main/arithmetic.c:682 src/main/logic.c:136 src/main/relop.c:222
+msgid "longer object length is not a multiple of shorter object length"
+msgstr ""
+
+#: src/main/character.c:117 src/main/character.c:305
+#, c-format
+msgid "%d argument passed to '%s' which requires %d to %d"
+msgid_plural "%d arguments passed to '%s' which requires %d to %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/coerce.c:1025 src/main/coerce.c:1147 src/main/coerce.c:1170
+#, c-format
+msgid "'%s' object cannot be coerced to type '%s'"
+msgstr ""
+
+#: src/main/connections.c:1472 src/main/connections.c:1643
+#: src/main/connections.c:2330 src/main/connections.c:3500
+#: src/main/connections.c:3554 src/main/connections.c:3602
+#: src/main/connections.c:3941 src/main/connections.c:4063
+#: src/main/connections.c:4228 src/main/connections.c:4484
+#: src/main/connections.c:4809 src/main/connections.c:4935
+#: src/main/connections.c:5156 src/main/connections.c:5609 src/main/dcf.c:93
+#: src/main/deparse.c:394 src/main/deparse.c:480 src/main/saveload.c:2371
+#: src/main/saveload.c:2456 src/main/scan.c:947 src/main/serialize.c:2552
+#: src/main/serialize.c:2601 src/main/source.c:290
+msgid "cannot open the connection"
+msgstr ""
+
+#: src/main/deparse.c:451 src/main/envir.c:2007 src/main/envir.c:2119
+#: src/main/envir.c:3813 src/main/eval.c:737 src/main/eval.c:2106
+#: src/main/eval.c:5126 src/main/saveload.c:2082 src/main/saveload.c:2417
+#: src/main/serialize.c:3128
+#, c-format
+msgid "object '%s' not found"
+msgstr ""
+
+#: src/main/envir.c:1580
+#, c-format
+msgid "could not find function \"%s\""
+msgstr ""
+
+#: src/main/eval.c:2196
+msgid "missing value where TRUE/FALSE needed"
+msgstr ""
+
+#: src/main/eval.c:2198
+msgid "argument is of length zero"
+msgstr ""
+
+#: src/main/main.c:511
+msgid "Error: segfault from C stack overflow\n"
+msgstr ""
+
+#: src/main/match.c:231 src/main/match.c:274 src/main/objects.c:49
+#: src/main/objects.c:59
+#, c-format
+msgid "formal argument \"%s\" matched by multiple actual arguments"
+msgstr ""
+
+#: src/main/objects.c:586
+#, c-format
+msgid "no applicable method for '%s' applied to an object of class \"%s\""
+msgstr ""
+
+#: src/main/seq.c:49
+msgid "unequal factor lengths"
+msgstr ""
+
+#: src/main/seq.c:101 src/main/seq.c:1076
+msgid "result would be too long a vector"
+msgstr ""
+
+#: src/main/seq.c:155
+msgid "argument of length 0"
+msgstr ""
+
+#: src/main/seq.c:158 src/main/seq.c:163
+#, c-format
+msgid "numerical expression has %d element: only the first used"
+msgid_plural "numerical expression has %d elements: only the first used"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/seq.c:169
+msgid "NA/NaN argument"
+msgstr ""
+
+#: src/main/seq.c:357
+#, c-format
+msgid "invalid type (%s) for '%s' (must be a vector)"
+msgstr ""
+
+#: src/main/seq.c:361
+#, c-format
+msgid "attempt to replicate an object of type '%s'"
+msgstr ""
+
+#: src/main/seq.c:433
+msgid "attempt to replicate non-vector"
+msgstr ""
+
+#: src/main/seq.c:448
+msgid "cannot replicate NULL to a non-zero length"
+msgstr ""
+
+#: src/main/seq.c:681 src/main/seq.c:697 src/main/seq.c:857 src/main/seq.c:1068
+#, c-format
+msgid "first element used of '%s' argument"
+msgstr ""
+
+#: src/main/seq.c:837 src/main/seq.c:869 src/main/seq.c:876 src/main/seq.c:947
+#: src/main/seq.c:948 src/main/seq.c:978 src/main/seq.c:979 src/main/seq.c:1000
+#: src/main/seq.c:1001
+#, c-format
+msgid "'%s' must be a finite number"
+msgstr ""
+
+#: src/main/seq.c:855
+msgid "'length.out' must be a non-negative number"
+msgstr ""
+
+#: src/main/seq.c:866 src/main/seq.c:873 src/main/seq.c:881
+#, c-format
+msgid "'%s' must be of length 1"
+msgstr ""
+
+#: src/main/seq.c:894
+msgid "invalid '(to - from)/by'"
+msgstr ""
+
+#: src/main/seq.c:906
+msgid "'by' argument is much too small"
+msgstr ""
+
+#: src/main/seq.c:908
+msgid "wrong sign in 'by' argument"
+msgstr ""
+
+#: src/main/seq.c:1074 src/main/seq.c:1081
+msgid "argument must be coercible to non-negative integer"
+msgstr ""
+
+#: src/main/seq.c:1101
+msgid "'lengths' is not of mode integer"
+msgstr ""
+
+#: src/main/seq.c:1104
+msgid "'from' is not of mode integer"
+msgstr ""
+
+#: src/main/seq.c:1107
+msgid "'by' is not of mode integer"
+msgstr ""
+
+#: src/main/seq.c:1114
+msgid "'from' has length 0, but not 'lengths'"
+msgstr ""
+
+#: src/main/seq.c:1116
+msgid "'by' has length 0, but not 'lengths'"
+msgstr ""
+
+#: src/main/seq.c:1123
+msgid "'lengths' must be a vector of non-negative integers"
+msgstr ""
+
+#: src/main/seq.c:1138
+msgid "'from' contains NAs"
+msgstr ""
+
+#: src/main/seq.c:1143
+msgid "'by' contains NAs"
+msgstr ""
+
+#: src/main/subassign.c:676 src/main/subassign.c:972 src/main/subassign.c:1197
+#: src/main/subassign.c:1819
+msgid "replacement has length zero"
+msgstr ""
+
+#: src/main/subassign.c:678 src/main/subassign.c:974 src/main/subassign.c:1199
+msgid "number of items to replace is not a multiple of replacement length"
+msgstr ""
+
+#: src/main/version.c:37
+msgid ""
+"R is free software and comes with ABSOLUTELY NO WARRANTY.\n"
+"You are welcome to redistribute it under certain conditions.\n"
+"Type 'license()' or 'licence()' for distribution details.\n"
+"\n"
+msgstr ""
+
+#: src/main/version.c:40
+msgid ""
+"R is a collaborative project with many contributors.\n"
+"Type 'contributors()' for more information and\n"
+"'citation()' on how to cite R or R packages in publications.\n"
+"\n"
+msgstr ""
+
+#: src/main/version.c:43
+msgid ""
+"Type 'demo()' for some demos, 'help()' for on-line help, or\n"
+"'help.start()' for an HTML browser interface to help.\n"
+"Type 'q()' to quit R.\n"
+"\n"
+msgstr ""
