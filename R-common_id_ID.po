@@ -65,7 +65,7 @@ msgstr[0] "argumen %d telah diteruskan ke '%s' dimana yang dibutuhkan adalah %d 
 #: src/main/coerce.c:1025 src/main/coerce.c:1147 src/main/coerce.c:1170
 #, c-format
 msgid "'%s' object cannot be coerced to type '%s'"
-msgstr "objek '%s' tidak bisa dipaksa diubah menjadi tipe '%s'"
+msgstr "objek '%s' tidak bisa diubah paksa menjadi tipe '%s'"
 
 #: src/main/connections.c:1472 src/main/connections.c:1643
 #: src/main/connections.c:2330 src/main/connections.c:3500
